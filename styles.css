@@ -1,0 +1,108 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #780d0d;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Sección principal con layout */
+#contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+/* Texto personalizado (izquierda) */
+.texto-personalizado {
+    flex: 1;
+    padding-right: 2rem;
+    border-right: 2px solid #ddd;
+}
+
+.texto-personalizado h2 {
+    color: #780d0d;
+}
+
+.imagen-centrada {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.imagen-centrada img {
+    max-width: 68%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ingredientes (derecha) */
+.ingredientes-derecha {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.ingredientes-derecha h2 {
+    color: #780d0d;
+    text-decoration: underline;
+}
+
+.ingredientes-derecha ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredientes-derecha li {
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo principal */
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color: #780d0d;
+    font-weight: bold;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #D3D3D3;
+    color: black;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
